@@ -1,0 +1,36 @@
+{
+  "editor.fontSize": 20,
+  "editor.wordWrap": "on",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "workbench.editor.empty.hint": "hidden",
+  "files.autoSave": "afterDelay",
+  "explorer.confirmDragAndDrop": false,
+  "editor.rulers": [
+    79,
+  ],
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Monokai Night",
+  "editor.inlineSuggest.edits.showCollapsed": true,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": "C:\\WINDOWS\\System32\\cmd.exe",
+      "args": []
+    },
+    "Git Bash": {
+      "source": "Git Bash",
+      "icon": "terminal-git-bash",
+      "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "args": [
+        "--login",
+        "-i"
+      ]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "git.autofetch": true
+}
