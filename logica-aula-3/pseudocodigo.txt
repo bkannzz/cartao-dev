@@ -1,0 +1,18 @@
+INÍCIO
+
+    LEIA numero1
+    LEIA numero2
+    LEIA numero3
+
+    SE numero1 > numero2 E numero1 > numero3 ENTÃO
+        ESCREVA "O maior número é:", numero1
+
+    SENÃO SE numero2 > numero1 E numero2 > numero3 ENTÃO
+        ESCREVA "O maior número é:", numero2
+
+    SENÃO
+        ESCREVA "O maior número é:", numero3
+
+    FIM SE
+
+FIM
